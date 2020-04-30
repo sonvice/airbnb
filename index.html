@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document </title>
+    <link rel="stylesheet" href="css/main.css"/><link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container"><a class="logo" href="#"><span class="logo__text">LOGO</span></a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <div class="header__grup1">
+              <li class="header__item"><a class="header__link" href="#">registrate</a></li>
+              <li class="header__item"><a class="header__link" href="#">iniciar sesión</a></li>
+            </div>
+            <div class="header__grup2">
+              <li class="header__item"> <a class="header__link header__link--ayuda" href="#">ayuda</a>
+                <ul class="header__sub">
+                  <li><a href="#">Opción 1</a></li>
+                  <li><a href="#">Opción 1</a></li>
+                  <li><a href="#">Opción 1 </a></li>
+                </ul>
+              </li>
+              <li class="header__item"> <a class="header__link--btn" href="#">publica tu anuncio</a></li>
+            </div>
+          </ul>
+        </nav>
+        <div class="toggle" id="toggle-bar"><span class="toggle__bar"></span></div>
+      </div>
+      <div class="header__nuestra">
+        <div class="header__box">
+          <h1 class="header__title">nuestra casa  es tu casa</h1>
+          <p class="header__paragraph">Alquila espacios únicos y alójate con anfitriones de 90 países </p>
+        </div>
+      </div>
+      <div class="form">
+        <div class="container">
+          <div class="form__form-box">
+            <div class="form__destination form__section">
+              <input class="form__input" type="text" autocomplete="off" required="required"/>
+              <label for="destino"><span>¿A dónde quieres ir?</span></label>
+            </div>
+            <div class="form__arrival form__section">
+              <input class="form__input" type="text" autocomplete="off" required="required"/>
+              <label for="llegada"><span>Llegada</span></label>
+            </div>
+            <div class="form__axit form__section">
+              <input class="form__input" type="text" autocomplete="off" required="required"/>
+              <label for="salida"><span>Salida</span></label>
+            </div>
+            <div class="form__guest form__section">
+              <input class="form__input" type="text" autocomplete="off" required="required"/>
+              <label for="huesped"><span>Huesped</span></label>
+            </div>
+            <div class="form__btn">
+              <div class="form__btn-link">
+                <input type="submit" value="BUSCAR"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="container">
+        <div class="grid__box">
+          <div class="grid__legend">
+            <div class="grid__box-legend">
+              <p>La historia detrás del nuevo Airbnb</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium harum dolorum hic excepturi nihil neque voluptas nostrum, autem architecto dignissimos aliquam fuga.</p>
+            </div>
+            <div><a class="grid__logo" href="#">LOGO</a></div>
+          </div>
+          <div class="grid__title">
+            <h2>Empieza tu aventura</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.    </p>
+          </div>
+        </div>
+        <div class="grid__content">
+          <ul class="grid__container">
+            <li class="grid__img1"><img src="img/grid1.jpg" alt=""/></li>
+            <li class="grid__img2"><img src="img/grid2.jpg" alt=""/></li>
+            <li class="grid__img3"><img src="img/grid3.jpg" alt=""/></li>
+            <li class="grid__img4"><img src="img/grid4.jpg" alt=""/></li>
+            <li class="grid__img5"><img src="img/grid5.jpg" alt=""/></li>
+            <li class="grid__img6"><img src="img/grid6.jpg" alt=""/></li>
+            <li class="grid__img7"><img src="img/grid7.jpg" alt=""/></li>
+            <li class="grid__img8"><img src="img/grid8.jpg" alt=""/></li>
+            <li class="grid__img9"><img src="img/grid9.jpg" alt=""/></li>
+            <li class="grid__img10"><img src="img/grid10.jpg" alt=""/></li>
+          </ul>
+        </div>
+        <div class="grid__btn"><a href="#"><span>Ver más</span></a></div>
+      </div>
+    </div>
+    <!-- Swiper-->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"> 
+          <picture>
+            <source srcset="img/slide-mobile-1.jpg" media="(max-width:768px)"/>
+            <source srcset="img/slide-1.jpg"/><img src="img/slide-1.jpg" alt=""/>
+          </picture>
+        </div>
+        <div class="swiper-slide"> 
+          <picture>
+            <source srcset="img/slide-mobile-2.jpg" media="(max-width:768px)"/>
+            <source srcset="img/slide-2.jpg"/><img src="img/slide-2.jpg" alt=""/>
+          </picture>
+        </div>
+        <div class="swiper-slide"> 
+          <picture>
+            <source srcset="img/slide-mobile-3.jpg" media="(max-width:768px)"/>
+            <source srcset="img/slide-3.jpg"/><img src="img/slide-3.jpg" alt=""/>
+          </picture>
+        </div>
+        <div class="swiper-slide"> 
+          <picture>
+            <source srcset="img/slide-mobile-4.jpg" media="(max-width:768px)"/>
+            <source srcset="img/slide-4.jpg"/><img src="img/slide-4.jpg" alt=""/>
+          </picture>
+        </div>
+        <div class="swiper-slide"> 
+          <picture>
+            <source srcset="img/slide-mobile-5.jpg" media="(max-width:768px)"/>
+            <source srcset="img/slide-5.jpg"/><img src="img/slide-5.jpg" alt=""/>
+          </picture>
+        </div>
+      </div>
+      <!--  Add Pagination-->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows-->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <section class="community">
+      <div class="container">
+        <h2 class="community__title">Nuestra comunidad</h2>
+        <div class="community__box">
+          <div class="community__card card-hover community__bg1"><img src="img/card1.jpg" alt=""/>
+            <div class="community__text">
+              <h3>Lorem ipsun</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+          <div class="community__card card-hover community__bg2"><img src="img/card2.jpg" alt=""/><a class="community__btn">Viajando</a>
+            <div class="community__text">
+              <h3>Lorem ipsun</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+            </div>
+          </div>
+          <div class="community__card card-hover community__bg3"><img src="img/card3.jpg" alt=""/>
+            <div class="community__text">
+              <h3>Lorem ipsun</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+            </div>
+          </div>
+          <div class="community__card card-hover community__bg4"><img src="img/card4.jpg" alt=""/><a class="community__btn--red">Hospedar</a>
+            <div class="community__text">
+              <h3>Lorem ipsun</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__box">
+          <div class="footer__select-box">
+            <select class="footer__select footer__es">
+              <option value="Español">Español</option>
+              <option value="English">English</option>
+            </select>
+            <select class="footer__select footer__en">
+              <option value="US">US</option>
+              <option value="EUR" selected="selected">EUR</option>
+            </select>
+          </div>
+          <div class="footer__empresa footer__list">
+            <ul> 
+              <li> <a class="footer__link" href="#">Empresa</a></li>
+              <li> <a class="footer__link" href="#">Acerca de </a></li>
+              <li> <a class="footer__link" href="#">Empleados</a></li>
+              <li> <a class="footer__link" href="#">Prensa </a></li>
+              <li> <a class="footer__link" href="#">Blog</a></li>
+              <li> <a class="footer__link" href="#">Ayuda</a></li>
+              <li> <a class="footer__link" href="#">Políticas</a></li>
+              <li> <a class="footer__link" href="#">Respuesta a las castastrofes</a></li>
+              <li> <a class="footer__link" href="#">Términos y Privacidad</a></li>
+            </ul>
+          </div>
+          <div class="footer__descubre-airbnb footer__list">
+            <ul> 
+              <li> <a class="footer__link" href="#">Descubre Airbnb</a></li>
+              <li> <a class="footer__link" href="#">Confianza y seguridad</a></li>
+              <li> <a class="footer__link" href="#">Invita a tus amigos</a></li>
+              <li> <a class="footer__link" href="#">Selección de Airbnb</a></li>
+              <li> <a class="footer__link" href="#">Aplicación para móviles</a></li>
+              <li> <a class="footer__link" href="#">Apoya a la ciudad de Nueva York</a></li>
+              <li> <a class="footer__link" href="#">Mapa de sitio</a></li>
+            </ul>
+          </div>
+          <div class="footer__hospedar footer__list">
+            <ul>
+              <li> <a class="footer__link" href="#">Hospedar</a></li>
+              <li> <a class="footer__link" href="#">Razones para hospedar</a></li>
+              <li> <a class="footer__link" href="#">Hospitalidad</a></li>
+              <li> <a class="footer__link" href="#">Ser un anfitrión responsable</a></li>
+              <li> <a class="footer__link" href="#">Historias</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__social">
+          <ul>
+            <li><a href="#">
+                 <i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+    <script src=""></script><script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
